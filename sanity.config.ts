@@ -12,5 +12,5 @@ export const config = defineConfig({
 	schema: {
 		types: schemas,
 	},
-	useCdn: false,
+	useCdn: true,
 });
