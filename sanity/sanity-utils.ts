@@ -16,6 +16,7 @@ export async function getProjects() {
 			next: {
 				revalidate: 60,
 			},
+			cache: "no-store",
 		}
 	);
 }
