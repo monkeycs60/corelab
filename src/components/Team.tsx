@@ -24,7 +24,7 @@ const Team = async () => {
 									alt={project.name}
 								/>
 							</div>
-							<div className='bg-slate-300 rounded-2xl rounded-tl-none rounded-tr-none h-[190px] py-4 px-3 flex flex-col gap-3'>
+							<div className='bg-slate-300 rounded-2xl rounded-tl-none rounded-tr-none w-full h-[190px] py-4 px-3 flex flex-col gap-3'>
 								<div className='flex flex-col h-1/2 gap-1 items-center justify-center text-center'>
 									<p className='font-bold'>{project.name}</p>
 									<p className='text-sm '>{project.role}</p>
