@@ -11,7 +11,12 @@ export async function getProjects() {
       "image": image.asset->url,
       url,
       content
-    }`
+    }`,
+		{
+			next: {
+				revalidate: 60,
+			},
+		}
 	);
 }
 
@@ -26,6 +31,11 @@ export async function getTeams() {
       "image": image.asset->url,
       url,
       content
-    }`
+    }`,
+		{
+			next: {
+				revalidate: 60,
+			},
+		}
 	);
 }
