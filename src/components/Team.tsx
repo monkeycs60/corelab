@@ -6,7 +6,7 @@ import Image from 'next/image';
 const Team = async () => {
 	const team = await getTeams();
 	// revalidate with next
-	
+
 	console.log(team);
 
 	return (
@@ -17,8 +17,8 @@ const Team = async () => {
 					return (
 						<div
 							key={project._id}
-							className='bg-green-300 rounded-2xl w-[300px] h-[400px]  flex flex-col gap-8 items-center'>
-							<div className='w-[300px] h-[200px] relative'>
+							className='bg-slate-400 rounded-2xl w-[260px] h-[360px]  flex flex-col items-center'>
+							<div className='w-[260px] h-[170px] relative'>
 								<Image
 									src={project.image}
 									className='object-cover rounded-2xl'
@@ -26,8 +26,16 @@ const Team = async () => {
 									alt={project.name}
 								/>
 							</div>
-							<div>
-								<p>{project.name}</p>
+							<div className='bg-slate-300 rounded-2xl rounded-tl-none rounded-tr-none h-[190px] py-4 px-3 flex flex-col gap-4'>
+								<div className='flex flex-col gap-1 items-center justify-center text-center'>
+									<p className='font-bold'>{project.name}</p>
+									<p className='text-sm '>{project.role}</p>
+								</div>
+								<div className='w-full flex items-center justify-center text-center'>
+									<p className='text-xs line-clamp-3'>
+										{project.content[0].children[0].text}
+									</p>
+								</div>
 							</div>
 						</div>
 					);
