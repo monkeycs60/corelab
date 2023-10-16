@@ -4,16 +4,13 @@ const team = {
 	type: 'document',
 	fields: [
 		{
-			name: 'createdAt',
-			title: 'Created At',
-			type: 'datetime',
-			options: {
-				readOnly: true, // Pour s'assurer que la date n'est pas modifiée manuellement
-			},
+			name: '_id',
+			title: 'N° ID',
+			type: 'string',	
 		},
 		{
 			name: 'name',
-			title: 'Name',
+			title: 'Nom',
 			type: 'string',
 		},
 		{
@@ -26,7 +23,7 @@ const team = {
 		},
 		{
 			name: 'role',
-			title: 'Role',
+			title: 'Position/Role',
 			type: 'string',
 		},
 		{
@@ -39,7 +36,7 @@ const team = {
 			fields: [
 				{
 					name: 'alt',
-					title: 'Alt',
+					title: 'Description de la photo (3-4 mots max)',
 					type: 'string',
 				},
 			],
@@ -51,7 +48,7 @@ const team = {
 		},
 		{
 			name: 'content',
-			title: 'Content',
+			title: 'Biographie',
 			type: 'array',
 			of: [
 				{
