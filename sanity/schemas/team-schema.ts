@@ -4,8 +4,8 @@ const team = {
 	type: 'document',
 	fields: [
 		{
-			name: '_id',
-			title: 'N° ID',
+			name: 'id',
+			title: 'N° ID du membre',
 			type: 'string',	
 		},
 		{
