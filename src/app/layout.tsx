@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 	description: 'Corelab website',
 };
 
-export const revalidate = 60;
+export const revalidate = 20;
 
 export default function RootLayout({
 	children,

@@ -14,7 +14,7 @@ export async function getProjects() {
     }`,
 		{
 			next: {
-				revalidate: 60,
+				revalidate: 20,
 			},
 			cache: "no-store",
 		}
@@ -35,7 +35,7 @@ export async function getTeams() {
     }`,
 		{
 			next: {
-				revalidate: 60,
+				revalidate: 20,
 			},
 		}
 	);

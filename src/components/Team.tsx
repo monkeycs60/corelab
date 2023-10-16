@@ -7,8 +7,6 @@ const Team = async () => {
 	const team = await getTeams();
 	// revalidate with next
 
-	console.log(team);
-
 	return (
 		<div className='flex flex-col gap-12 p-8'>
 			<h2 className='text-3xl'>Membres de l'équipe</h2>
