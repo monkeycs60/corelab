@@ -1,13 +1,10 @@
-export default function Home() {
+import Developpeur from '@/components/Developpeur';
+import Team from '@/components/Team';
+
+export default async function Home() {
 	return (
 		<main>
-			<div>
-				<p className='text-red-400'>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
-					aliquid officiis eveniet nisi est, atque repudiandae facere
-					molestiae expedita praesentium!
-				</p>
-			</div>
+			<Team />
 		</main>
 	);
 }
