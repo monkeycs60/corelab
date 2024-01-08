@@ -9,6 +9,7 @@ const config: Config = {
 	theme: {
 		fontFamily: {
 			general: ['GeneralSans_Variable', 'sans-serif'],
+			generalRegular: ['GeneralSans-Regular', 'sans-serif'],
 		},
 		extend: {
 			colors: {
