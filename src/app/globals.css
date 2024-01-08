@@ -26,7 +26,7 @@
 		7,
 		15,
 		30,
-		0.5
+		0.7
 	); /* Couleur de fond semi-transparente, ajustez l'opacité selon vos besoins */
 	z-index: -1; /* Place le pseudo-élément derrière le contenu */
 }
@@ -35,4 +35,22 @@
 	background-image: url('/bg-cardio-irm.webp');
 	background-size: cover;
 	background-position: center;
+
+
+}
+.bg-cardio-irm::before {
+	content: ''; /* Pseudo-élément requis pour afficher quelque chose */
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(
+		7,
+		15,
+		30,
+		0.8
+	); /* Couleur de fond semi-transparente, ajustez l'opacité selon vos besoins */
+	z-index: -1; /* Place le pseudo-élément derrière le contenu */
 }
