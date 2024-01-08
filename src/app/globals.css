@@ -4,21 +4,11 @@
 
 @import url('/fonts/GeneralSans_Complete/Fonts/WEB/css/general-sans.css');
 
-@layer base {
-	html {
-		font-family: 'GeneralSans-Variable', sans-serif;
-	}
-}
+
 
 @font-face {
 	font-family: 'GeneralSans-Variable';
-	src: url('/fonts/GeneralSansVariable.ttf') format('truetype-variations'),
-		url('/fonts/GeneralSansVariable.woff2') format('woff2-variations'),
-		url('/fonts/GeneralSansVariable.woff') format('woff-variations'),
-		url('/fonts/GeneralSansVariable.eot') format('embedded-opentype');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
+	src: url('/fonts/GeneralSans-variable.ttf');
 }
 
 .bg-cardio-computer {
