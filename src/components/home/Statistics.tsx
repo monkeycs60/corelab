@@ -50,7 +50,7 @@ const Statistics = () => {
 						alt='studies'
 					/>
 					<div className='w-3/4 text-secondary text-center'>
-						<span className='text-xl font-bold'>8 564 026</span>
+						<span className='text-3xl font-bold'>8 564 026</span>
 						<p>images analysées</p>
 					</div>
 				</div>
