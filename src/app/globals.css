@@ -4,6 +4,12 @@
 
 @import url('/fonts/GeneralSans_Complete/Fonts/WEB/css/general-sans.css');
 
+@layer base {
+	html {
+		font-family: 'GeneralSans-Variable', sans-serif;
+	}
+}
+
 @font-face {
 	font-family: 'GeneralSans-Variable';
 	src: url('/fonts/GeneralSansVariable.ttf') format('truetype-variations'),
@@ -23,15 +29,20 @@
 }
 
 .bg-cardio-computer::before {
-  content: ''; /* Pseudo-élément requis pour afficher quelque chose */
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: rgba(7, 15, 30, 0.50);; /* Couleur de fond semi-transparente, ajustez l'opacité selon vos besoins */
-  z-index: -1; /* Place le pseudo-élément derrière le contenu */
+	content: ''; /* Pseudo-élément requis pour afficher quelque chose */
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(
+		7,
+		15,
+		30,
+		0.5
+	); /* Couleur de fond semi-transparente, ajustez l'opacité selon vos besoins */
+	z-index: -1; /* Place le pseudo-élément derrière le contenu */
 }
 
 .bg-cardio-irm {
