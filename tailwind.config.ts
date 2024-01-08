@@ -8,7 +8,7 @@ const config: Config = {
 	],
 	theme: {
 		fontFamily: {
-			general: ['GeneralSansVariable', 'sans-serif'],
+			general: ['GeneralSans_Variable', 'sans-serif'],
 		},
 		extend: {
 			colors: {
