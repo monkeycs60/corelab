@@ -1,9 +1,9 @@
-import Introduction from "@/components/Introduction";
+import Introduction from '@/components/Introduction';
 
 export default async function Home() {
 	return (
 		<main>
-		<Introduction />
+			<Introduction />
 		</main>
 	);
 }
