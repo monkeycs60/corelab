@@ -1,3 +1,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+	font-family: 'GeneralSansVariable';
+	src: url('/fonts/GeneralSansVariable.ttf');
+}
+
+.bg-cardio-computer {
+	background-image: url('/cardio1.png');
+	background-size: 100%;
+	background-position: left;
+	filter: grayscale(20%);
+}
+
+.bg-cardio-computer::before {
+	content: ''; /* Pseudo-élément requis pour afficher quelque chose */
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(
+		7,
+		15,
+		30,
+		0.7
+	); /* Couleur de fond semi-transparente, ajustez l'opacité selon vos besoins */
+	z-index: -1; /* Place le pseudo-élément derrière le contenu */
+}
+
+.bg-cardio-irm {
+	background-image: url('/bg-cardio-irm.webp');
+	background-size: cover;
+	background-position: center;
+    filter: grayscale(10%);
+
+
+}
+.bg-cardio-irm::before {
+	content: ''; /* Pseudo-élément requis pour afficher quelque chose */
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(247, 247, 247, 0.65); /* Couleur de fond semi-transparente, ajustez l'opacité selon vos besoins */
+	z-index: -1; /* Place le pseudo-élément derrière le contenu */
+}
