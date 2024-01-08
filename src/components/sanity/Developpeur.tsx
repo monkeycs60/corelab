@@ -1,5 +1,5 @@
 import React from 'react';
-import { getProjects } from '../../sanity/sanity-utils';
+import { getProjects } from '../../../sanity/sanity-utils';
 import { Project } from '@/types/project';
 import Image from 'next/image';
 

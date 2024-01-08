@@ -1,5 +1,5 @@
 import React from 'react';
-import { getTeams } from '../../sanity/sanity-utils';
+import { getTeams } from '../../../sanity/sanity-utils';
 import { TeamProps } from '@/types/team';
 import Image from 'next/image';
 
@@ -39,6 +39,9 @@ const Team = async () => {
 						</div>
 					);
 				})}
+			</div>
+			<div>
+				<p className='font-general font-bold text-4xl'>Qu’est-ce que MIRACL.ai ?</p>
 			</div>
 		</div>
 	);

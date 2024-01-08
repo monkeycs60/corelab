@@ -1,10 +1,9 @@
-import Developpeur from '@/components/Developpeur';
-import Team from '@/components/Team';
+import Introduction from "@/components/Introduction";
 
 export default async function Home() {
 	return (
 		<main>
-			<Team />
+		<Introduction />
 		</main>
 	);
 }
