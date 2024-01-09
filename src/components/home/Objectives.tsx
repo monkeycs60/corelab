@@ -5,7 +5,7 @@ import Objective from './Objective';
 
 const Objectives = () => {
 	return (
-		<div className='bg-cardio-irm text-black justify-between py-6 px-12 flex flex-col gap-4 text-' id='objectives'>
+		<div className='bg-cardio-irm-mobile text-black justify-between py-6 px-12 flex flex-col gap-4 text-' id='objectives'>
 			<h2 className='text-2xl font-[600] text-center'>Nos objectifs</h2>
 
 			<div className='h-full flex flex-col py-5 gap-4 justify-between'>
