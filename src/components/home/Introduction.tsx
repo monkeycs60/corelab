@@ -1,5 +1,11 @@
 'use client';
 
+const TextIntro = () => {
+	return  (
+		
+	)
+}
+
 
 const Introduction = () => {
 
@@ -59,9 +65,9 @@ const Introduction = () => {
 			<div
 				className='pt-[5rem] h-screen text-white bg-cardio-computer-desktop justify-end hidden md:flex'
 				id='introduction'>
-				<div className='px-8 text-center w-[35%] mt-32 flex flex-col gap-6'>
-					<h2 className='text-2xl font-[600]'>Présentation</h2>
-					<div className='flex flex-col gap-8 font-thin tracking-wide '>
+				<div className='px-48 text-center w-[38%] mt-36 flex flex-col gap-24'>
+					<h2 className='text-4xl font-[600]'>Qu’est-ce que MIRACL<span className="text-secondary">.ai</span> ?</h2>
+					<div className='flex flex-col gap-12 font-thin tracking-wide text-xl leading-9'>
 						<p>
 							Véritable outil de{' '}
 							<span className='font-semibold'>
