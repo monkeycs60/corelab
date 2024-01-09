@@ -28,7 +28,7 @@ const Statistics = () => {
 				<span className='font-semibold text-secondary'>.ai</span> est
 				constituée aujourd’hui de :
 			</p>
-			<div className='flex flex-col gap-6 md:flex-row md:justify-between md:w-[60%] md:mt-14 md:m-auto md:gap-0'>
+			<div className='flex flex-col gap-6 md:flex-row md:justify-between md:w-[80%] 3xl:w-[60%] md:mt-14 md:m-auto md:gap-0'>
 				<div className='flex items-center md:flex-col md:justify-center'>
 					<Image
 						src='/stat1.svg'

@@ -78,9 +78,9 @@ const Objectives = () => {
 					<ObjectivesContainer />
 				</div>
 			</div>
-			<div className='bg-cardio-irm-desktop text-black justify-between py-16 px-12 flex-col gap-20 hidden md:flex' id='objectives'>
+			<div className='bg-cardio-irm-desktop text-black justify-between py-16 px-12 flex-col gap-16 3xl:gap-20 hidden md:flex' id='objectives'>
 				<h2 className='text-4xl font-[600] text-left pl-8'>Nos objectifs</h2>
-				<div className='h-full flex flex-wrap py-5 justify-center gap-32'>
+				<div className='h-full flex flex-wrap py-5 justify-center gap-20 3xl:gap-32'>
 					<ObjectivesContainer />
 				</div>
 			</div>

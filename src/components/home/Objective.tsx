@@ -11,8 +11,8 @@ const Objective = ({
 	descriptionContent
 }: ObjectiveProps) => {
 	return (
-		<div className=' md:w-[45%] md:flex md:md:justify-center '>
-			<div className='flex flex-col items-center text-center gap-3 md:w-1/3 md:text-xl md:leading-8'>
+		<div className='md:w-[45%] md:flex md:md:justify-center '>
+			<div className='flex flex-col items-center text-center gap-3 md:w-2/3 3xl:w-1/3 md:text-lg 3xl:text-xl md:leading-8'>
 				<Image
 					src={`/objective${objectiveNumber}.svg`}
 					alt='objective1'
