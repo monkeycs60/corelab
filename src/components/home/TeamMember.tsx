@@ -17,7 +17,7 @@ const TeamMember = ({ TeamNumber, descriptionContent }: TeamMemberProps) => {
 				width={720}
 				height={720}
 			/>
-			{descriptionContent}
+			<p className='text-center text-[14px] '>{descriptionContent}</p>
 		</div>
 	);
 };
