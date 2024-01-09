@@ -1,13 +1,10 @@
 'use client';
 
-import { useMediaQuery } from '@uidotdev/usehooks';
 
 const Introduction = () => {
-	const mobile = useMediaQuery('only screen and (max-width : 768px)');
 
 	return (
 		<>
-			{mobile ? (
 				<div
 					className='pt-[5.5rem] pb-[1.5rem] bg-cardio-computer text-white'
 					id='introduction'>
@@ -59,13 +56,7 @@ const Introduction = () => {
 						</div>
 					</div>
 				</div>
-			) : (
-				<div
-					className='pt-[7rem] h-[100vh] bg-cardio-computer-desktop text-white'
-					id='introduction'>
-					hello
-				</div>
-			)}
+		
 		</>
 	);
 };

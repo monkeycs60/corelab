@@ -10,7 +10,7 @@ const Header = () => {
 			<div className='flex items-center gap-4 md:gap-8'>
 				<Image
 					src='/miracl-logo.svg'
-					className='w-14 md:w-20'
+					className='w-14 md:w-[70px]'
 					width={452}
 					height={402}
 					alt='Corelab logo'
