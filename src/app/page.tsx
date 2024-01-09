@@ -1,10 +1,12 @@
+"use client";
+
 import Introduction from '@/components/home/Introduction';
 import Objectives from '@/components/home/Objectives';
 import Services from '@/components/home/Services';
 import Statistics from '@/components/home/Statistics';
 import Team from '@/components/home/Team';
 
-export default async function Home() {
+export default  function Home() {
 	return (
 		<main>
 			<Introduction />
