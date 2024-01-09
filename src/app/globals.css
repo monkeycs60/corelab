@@ -23,3 +23,9 @@
 	background-size: cover;
 	background-position: center;
 }
+
+.bg-cardio-irm-desktop {
+	background-image: url('/bg-cardio-irm-desktop.png');
+	background-size: cover;
+	background-position: center;
+}
