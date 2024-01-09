@@ -9,12 +9,12 @@ const Header = () => {
 				<Image
 					src='/miracl-logo.svg'
 					className='w-14'
-					width={507}
-					height={530}
+					width={452}
+					height={402}
 					alt='Corelab logo'
 				/>
 				<h1>
-					<span className='font-bold text-2xl'>MIRACL</span>
+					<span className='font-semibold text-2xl'>MIRACL</span>
 					<span className='text-secondary text-xl'>.ai</span>
 				</h1>
 			</div>

@@ -8,3 +8,15 @@
 	src: url('/fonts/GeneralSansVariable.ttf');
 }
 
+.bg-cardio-computer {
+	background-image: url('/cardio2.png');
+	background-size: fill;
+	background-position: right;
+}
+
+
+.bg-cardio-irm {
+	background-image: url('/bg-cardio-irm2.png');
+	background-size: cover;
+	background-position: center;
+}
