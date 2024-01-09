@@ -1,9 +1,23 @@
+'use client';
+
 import Image from 'next/image';
-import React from 'react';
+import React, { useRef, useState } from 'react';
+import CountUp from 'react-countup';
+import { useInView } from "framer-motion"
+
 
 const Statistics = () => {
+	const ref = useRef(null)
+	const isInView = useInView(ref)
+	const [hasAnimated, setHasAnimated] = useState(false);
+
+	if (isInView && !hasAnimated) {
+		setHasAnimated(true);
+	}
+
 	return (
 		<div
+			ref={ref}
 			className='  text-primary flex flex-col gap-8 pt-8 pb-20 px-8'
 			id='statistics'>
 			<h2 className='text-2xl font-[600] text-center'>
@@ -24,7 +38,11 @@ const Statistics = () => {
 						alt='studies'
 					/>
 					<div className='flex-1 text-[#00A8B3] text-center'>
-						<span className='text-3xl font-bold'>12</span>
+						<span className='text-3xl font-bold'>
+							{
+								hasAnimated ? <CountUp end={12} duration={4} /> : 12
+							}
+						</span>
 						<p>études</p>
 					</div>
 				</div>
@@ -38,7 +56,11 @@ const Statistics = () => {
 						alt='studies'
 					/>
 					<div className='w-3/4  text-[#FF6B00] text-center'>
-						<span className='text-3xl font-bold'>28 256</span>
+						<span className='text-3xl font-bold'>
+							{
+								hasAnimated ? <CountUp end={28256} duration={4} /> : 28256
+							}
+						</span>
 						<p>patients</p>
 					</div>
 				</div>
@@ -52,7 +74,11 @@ const Statistics = () => {
 						alt='studies'
 					/>
 					<div className='w-3/4 text-secondary text-center'>
-						<span className='text-3xl font-bold'>8 564 026</span>
+						<span className='text-3xl font-bold'>
+							{
+								hasAnimated ? <CountUp end={8564026} duration={4} /> : 8564026
+							}
+						</span>
 						<p>images analysées</p>
 					</div>
 				</div>
