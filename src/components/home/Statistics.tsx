@@ -3,7 +3,9 @@ import React from 'react';
 
 const Statistics = () => {
 	return (
-		<div className='  text-primary flex flex-col gap-8 pt-8 pb-20 px-8'>
+		<div
+			className='  text-primary flex flex-col gap-8 pt-8 pb-20 px-8'
+			id='statistics'>
 			<h2 className='text-2xl font-[600] text-center'>
 				Quelques statistiques
 			</h2>
