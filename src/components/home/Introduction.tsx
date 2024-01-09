@@ -8,22 +8,22 @@ const Introduction = () => {
 				<div className='flex flex-col gap-8 font-thin tracking-wide '>
 					<p>
 						Véritable outil de{' '}
-						<span className='font-bold'>service académique</span> de
+						<span className='font-semibold'>service académique</span> de
 						soutien à la recherche clinique, la plateforme{' '}
-						<span className='font-bold'>MIRACL</span>
-						<span className='text-secondary font-bold'>.ai </span>
+						<span className='font-semibold'>MIRACL</span>
+						<span className='text-secondary font-semibold'>.ai </span>
 						se positionne comme une passerelle essentielle entre les
-						<span className='font-bold px-1'>chercheurs</span> du monde
+						<span className='font-semibold px-1'>chercheurs</span> du monde
 						académique, les
-						<span className='font-bold px-1'>ingénieurs</span>
+						<span className='font-semibold px-1'>ingénieurs</span>
 						spécialisés en intelligence artificielle et l'
-						<span className='font-bold'>industrie.</span>
+						<span className='font-semibold'>industrie.</span>
 					</p>
 					<p>
-						<span className='font-bold'>MIRACL</span>
-						<span className='font-bold text-secondary'>.ai</span> est
+						<span className='font-semibold'>MIRACL</span>
+						<span className='font-semibold text-secondary'>.ai</span> est
 						constituée d’une
-						<span className='font-bold px-1'>
+						<span className='font-semibold px-1'>
 							large base de données multimodales labellisées
 						</span>
 						par des experts avec des cohortes prospectives et
@@ -33,7 +33,7 @@ const Introduction = () => {
 					</p>
 					<p>
 						Cette base de données unique permet de
-						<span className='font-bold px-1'>
+						<span className='font-semibold px-1'>
 							développer de nouveaux outils innovants
 						</span>
 						pour améliorer le diagnostic et l’évaluation pronostique des
