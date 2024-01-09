@@ -18,17 +18,17 @@ const Statistics = () => {
 	return (
 		<div
 			ref={ref}
-			className='  text-primary flex flex-col gap-8 pt-8 pb-16 px-8 md:gap-8 md:pt-16 md:pb-24'
+			className='  text-primary flex flex-col gap-8 pt-8 pb-16 px-8 md:gap-4 md:pt-16 md:pb-24'
 			id='statistics'>
-			<h2 className='text-2xl font-[600] text-center md:text-4xl'>
+			<h2 className='text-2xl font-[600] text-center md:text-4xl md:text-left md:pl-12'>
 				Quelques statistiques
 			</h2>
-			<p className='text-center md:text-lg'>
+			<p className='text-center md:text-lg md:text-left md:pl-12'>
 				La base de données de <span className='font-semibold'>MIRACL</span>
 				<span className='font-semibold text-secondary'>.ai</span> est
 				constituée aujourd’hui de :
 			</p>
-			<div className='flex flex-col gap-6 md:flex-row md:justify-between md:w-[60%] md:mt-10 md:m-auto md:gap-0'>
+			<div className='flex flex-col gap-6 md:flex-row md:justify-between md:w-[60%] md:mt-14 md:m-auto md:gap-0'>
 				<div className='flex items-center md:flex-col md:justify-center'>
 					<Image
 						src='/stat1.svg'
