@@ -19,6 +19,7 @@ const Header = () => {
 							width={452}
 							height={402}
 							alt='Corelab logo'
+							priority
 						/>
 						<h1>
 							<span className='font-semibold text-2xl'>MIRACL</span>
@@ -57,7 +58,7 @@ const Header = () => {
 								<li>Services</li>
 							</Link>
 							<Link
-								href='#objectives'
+								href='#team'
 								className='hover:text-secondary transition-all duration-200'>
 								<li>Equipe</li>
 							</Link>

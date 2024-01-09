@@ -9,14 +9,14 @@
 }
 
 .bg-cardio-computer {
-	background-image: url('/cardio2.png');
+	background-image: url('/bg-cardio-computer-mobile.png');
 	background-size: fill;
 	background-position: right;
 }
 
 
 .bg-cardio-irm {
-	background-image: url('/bg-cardio-irm2.png');
+	background-image: url('/bg-cardio-irm-mobile.png');
 	background-size: cover;
 	background-position: center;
 }
