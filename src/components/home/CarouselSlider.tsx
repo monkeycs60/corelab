@@ -51,21 +51,23 @@ function CarouselSlider() {
 		},
 	];
 	return (
-		<Carousel className='w-[70%] m-auto'>
-			<CarouselContent>
-				{services.map((product, idx) => (
-					<CarouselItem key={idx} className='w-full'>
-						<ServiceCard
-							logoSrc={product.logo}
-							title={product.title}
-							description={product.description}
-						/>
-					</CarouselItem>
-				))}
-			</CarouselContent>
-			<CarouselPrevious className=' h-8 w-8 border-white/80 border-[2px] z-50' />
-			<CarouselNext className=' border-white/80 border-[2px] z-50' />
-		</Carousel>
+		<>
+			<Carousel className='w-[70%] m-auto md:hidden'>
+				<CarouselContent>
+					{services.map((product, idx) => (
+						<CarouselItem key={idx} className='w-full'>
+							<ServiceCard
+								logoSrc={product.logo}
+								title={product.title}
+								description={product.description}
+							/>
+						</CarouselItem>
+					))}
+				</CarouselContent>
+				<CarouselPrevious className=' h-8 w-8 border-white/80 border-[2px] z-50' />
+				<CarouselNext className=' border-white/80 border-[2px] z-50' />
+			</Carousel>
+		</>
 	);
 }
 
