@@ -1,12 +1,18 @@
+"use client";
+
 import Image from 'next/image';
 import { Menu } from 'lucide-react';
 import Link from 'next/link';
+import { useWindowScroll } from "@uidotdev/usehooks";
 
 const Header = () => {
+	const [{ y }] = useWindowScroll();
 
 	return (
 
-		<header className='z-[999] fixed top-0 w-full h-[5.5rem] md-[7rem] bg-[#070F1E] text-white flex py-2 px-5 md:px-16  justify-between items-center'>
+		<header className={`z-[999] fixed top-0 w-full h-[5.5rem] md-[7rem] bg-[#070F1E] text-white flex py-2 px-5 justify-between items-center transition-all duration-200 md:px-16  ${
+			y && y > 50 ? 'md:bg-[#070F1E]' : 'md:bg-transparent'
+		} `}>
 			<div className='flex items-center gap-4 md:gap-8'>
 				<Image
 					src='/miracl-logo.svg'
