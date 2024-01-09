@@ -1,10 +1,9 @@
 'use client';
 
-import { useMediaQuery } from 'usehooks-ts';
-
+import { useMediaQuery } from '@uidotdev/usehooks';
 
 const Introduction = () => {
-		const mobile = useMediaQuery('(max-width: 768px)');
+	const mobile = useMediaQuery('only screen and (max-width : 768px)');
 
 	return (
 		<>

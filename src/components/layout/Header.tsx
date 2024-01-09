@@ -1,12 +1,12 @@
 'use client';
 
 import Image from 'next/image';
-import { useMediaQuery } from 'usehooks-ts';
+import { useMediaQuery } from '@uidotdev/usehooks';
 import { Menu } from 'lucide-react';
 import Link from 'next/link';
 
 const Header = () => {
-	const mobile = useMediaQuery('(max-width: 768px)');
+	const mobile = useMediaQuery('only screen and (max-width : 768px)');
 
 	return (
 		<>
@@ -19,7 +19,6 @@ const Header = () => {
 							width={452}
 							height={402}
 							alt='Corelab logo'
-							priority
 						/>
 						<h1>
 							<span className='font-semibold text-2xl'>MIRACL</span>
