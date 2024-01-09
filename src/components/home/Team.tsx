@@ -1,10 +1,8 @@
-import Image from 'next/image';
-import React from 'react';
 import TeamMember from './TeamMember';
 
 const Team = () => {
 	return (
-		<div className=' bg-primary text-white flex flex-col gap-8 pt-8 pb-20'>
+		<div className=' bg-primary text-white flex flex-col gap-10 pt-8 pb-20'>
 			<h2 className='text-2xl font-[600] text-center'>
 				Les responsables de la plateforme
 			</h2>
