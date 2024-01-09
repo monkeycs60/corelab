@@ -1,5 +1,3 @@
-"use client";
-
 import Introduction from '@/components/home/Introduction';
 import Objectives from '@/components/home/Objectives';
 import Services from '@/components/home/Services';
