@@ -21,7 +21,7 @@ const Statistics = () => {
 			className='  text-primary  pt-8 pb-16 px-8 md:pt-16 md:pb-24'
 			id='statistics'>
 			<div className='flex flex-col gap-8 md:gap-4 3xl:max-w-[1920px] 3xl:m-auto'>
-				<h2 className='text-2xl font-[600] text-center md:text-3xl 3xl:text-4xl md:text-left md:pl-12 3xl:pl-0'>
+				<h2 className='text-2xl font-[600] text-center md:text-3xl md:text-left md:pl-12 3xl:pl-0'>
 					Quelques statistiques
 				</h2>
 				<p className='text-center md:text-lg md:text-left md:pl-12 3xl:pl-0'>
