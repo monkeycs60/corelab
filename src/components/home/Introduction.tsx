@@ -68,7 +68,7 @@ const Introduction = () => {
 				id='introduction'>
 				<div className='3xl:px-48 text-center md:w-[40%] gap-12  mt-20 flex flex-col items-center 3xl:w-[38%] 3xl:mt-36 3xl:gap-24'>
 					<h2 className='text-3xl font-[600]'>Qu’est-ce que MIRACL<span className="text-secondary">.ai</span> ?</h2>
-					<div className='flex flex-col gap-8 font-thin tracking-wide text-md w-[400px]  3xl:w-[600px] 3xl:text-xl 3xl:leading-9 3xl:gap-12'>
+					<div className='flex flex-col gap-8 font-thin tracking-wide text-md w-[430px]  3xl:w-[600px] 3xl:text-xl 3xl:leading-9 3xl:gap-12'>
 						<TextIntro />
 					</div>
 				</div>
