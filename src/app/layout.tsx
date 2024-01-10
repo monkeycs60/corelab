@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang='fr' className='!scroll-smooth relative font-general overflow-x-hidden'>
-			<body className='3xl:max-w-[1920px]'>
+			<body className=''>
 				<Header />
 				{children}
 				<Footer />
