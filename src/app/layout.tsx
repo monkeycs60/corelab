@@ -19,8 +19,8 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang='fr' className='!scroll-smooth relative font-general'>
-			<body className=''>
+		<html lang='fr' className='!scroll-smooth relative font-general overflow-x-hidden'>
+			<body className='3xl:max-w-[1920px]'>
 				<Header />
 				{children}
 				<Footer />

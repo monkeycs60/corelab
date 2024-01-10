@@ -16,6 +16,7 @@
 .bg-cardio-computer-desktop {
 	background-image: url('/bg-cardio-computer-desktop.png');
 	background-size: 100%;
+	width: 100vw;
 }
 
 .bg-cardio-irm-mobile {
@@ -28,4 +29,5 @@
 	background-image: url('/bg-cardio-irm-desktop.png');
 	background-size: cover;
 	background-position: center;
+	width: 100vw;
 }
