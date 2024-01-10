@@ -47,7 +47,7 @@ const Header = () => {
 				</ul>
 			</nav>
 			<Link href='#contact' className='hidden md:block'>
-				<button className='bg-secondary text-white font-semibold px-10 py-4 rounded-md hover:bg-white hover:text-secondary transition-all duration-300'>
+				<button className='bg-secondary text-white font-semibold px-8 py-3 rounded-md hover:bg-white hover:text-secondary transition-all duration-300 3xl:px-10 3xl:py-4'>
 					Contact
 				</button>
 			</Link>
