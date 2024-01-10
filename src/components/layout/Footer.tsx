@@ -47,7 +47,7 @@ const Footer = () => {
 						<Image src='/map.png' width={485} height={404} className='w-[350px]' alt='Miracl location' />
 						<div className='text-white px-6 flex flex-col gap-10 justify-center items-center'>
 							<div className='flex gap-10 items-center'>
-								<h2 className='text-center font-[600] text-2xl md:text-3xl'>Contact</h2>
+								<h2 className='text-center font-[600] text-2xl 3xl:text-3xl'>Contact</h2>
 								<div className='flex gap-5'>
 									<Link
 										href='mailto:miracl-ai@gmail.com'

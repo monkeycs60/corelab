@@ -10,9 +10,9 @@ const Header = () => {
 
 	return (
 
-		<header className={`z-[999] fixed top-0 w-full h-[5.5rem] md-[7rem] bg-[#070F1E] text-white  py-2 px-5 transition-all duration-200 md:px-16    ${y && y > 50 ? 'md:bg-[#070F1E]' : 'md:bg-transparent'
+		<header className={`z-[999] fixed top-0 w-full h-[5.5rem] bg-[#070F1E] text-white  py-2 px-5 transition-all duration-200 md:px-16 3xl:h-[7rem]    ${y && y > 50 ? 'md:bg-[#070F1E]' : 'md:bg-transparent'
 			} `}>
-			<div className='flex justify-between items-center 3xl:max-w-[1920px] m-auto'>
+			<div className='m-auto flex justify-between items-center 3xl:max-w-[1920px] 3xl:h-full'>
 				<div className='flex items-center gap-4 md:gap-8'>
 					<Image
 						src='/miracl-logo.svg'
