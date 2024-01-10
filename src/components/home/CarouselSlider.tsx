@@ -39,7 +39,7 @@ function CarouselSlider() {
 		},
 		{
 			logo: '/resource5.svg',
-			title: 'Développement et validation de nouveaux biomarqueurs d’imagerie cardiaque par intelligence artificielle',
+			title: 'Développement et validation de nouveaux biomarqueurs d’imagerie cardiaque par IA',
 			description:
 				'Entraînement et validation d’algorithme de traitement d’images deep learning pour améliorer le diagnostic ou la stratification du risque des patients.',
 		},
