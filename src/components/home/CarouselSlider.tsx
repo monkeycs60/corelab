@@ -67,7 +67,7 @@ function CarouselSlider() {
 				<CarouselPrevious className=' h-8 w-8 border-white/80 border-[2px] z-50' />
 				<CarouselNext className=' border-white/80 border-[2px] z-50' />
 			</Carousel>
-			<div className='flex-wrap gap-20 justify-center hidden md:flex md:w-[90%] 3xl:w-[88%] m-auto'>
+			<div className='flex-wrap justify-center m-auto hidden md:flex md:w-[90%] md:gap-8 3xl:w-[88%] 3xl:gap-20 '>
 				{
 					services.map((product, idx) => (
 						<ServiceCard
