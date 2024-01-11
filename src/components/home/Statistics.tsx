@@ -18,7 +18,7 @@ const Statistics = () => {
 	return (
 		<div
 			ref={ref}
-			className='  text-primary  pt-8 pb-16 px-8 md:pt-16 md:pb-24'
+			className='  text-primary  pt-8 pb-16 px-8 md:pt-10 md:pb-14 3xl:pt-16 3xl:pb-24'
 			id='statistics'>
 			<div className='flex flex-col gap-8 md:gap-4 3xl:max-w-[1920px] 3xl:m-auto'>
 				<h2 className='text-2xl font-[600] text-center md:text-3xl md:text-left md:pl-12 3xl:pl-0'>
@@ -39,7 +39,7 @@ const Statistics = () => {
 							alt='studies'
 						/>
 						<div className='flex-1 text-[#00A8B3] text-center md:flex-auto md:w-full'>
-							<span className='text-3xl font-bold md:text-5xl 3xl:text-6xl md:h-20 md:w-[400px] md:flex  md:justify-center'>
+							<span className='text-3xl font-bold md:text-5xl 3xl:text-6xl md:h-14 3xl:h-20 md:w-[400px] md:flex  md:justify-center'>
 								{
 									hasAnimated ? <CountUp end={12} duration={4} delay={0.7} separator=' ' /> : 12
 								}
@@ -57,7 +57,7 @@ const Statistics = () => {
 							alt='studies'
 						/>
 						<div className='w-3/4  text-[#FF6B00] text-center md:w-full'>
-							<span className='text-3xl font-bold md:text-5xl 3xl:text-6xl md:h-20 md:w-[400px] md:flex md:justify-center'>
+							<span className='text-3xl font-bold md:text-5xl 3xl:text-6xl md:h-14 3xl:h-20 md:w-[400px] md:flex md:justify-center'>
 								{
 									hasAnimated ? <CountUp end={28256} duration={4} delay={0.7} separator=' ' /> : 28256
 								}
@@ -75,7 +75,7 @@ const Statistics = () => {
 							alt='studies'
 						/>
 						<div className='w-3/4 text-secondary text-center md:w-full md:flex md:flex-col md:gap-2'>
-							<span className='text-3xl font-bold md:text-5xl 3xl:text-6xl md:h-20 md:w-[400px] md:flex md:justify-center'>
+							<span className='text-3xl font-bold md:text-5xl 3xl:text-6xl md:h-14 3xl:h-20 md:w-[400px] md:flex md:justify-center'>
 								{
 									hasAnimated ? <CountUp end={8564026} className='md:h-20 md:w-full' duration={4} delay={0.7} separator=' ' /> : 8564026
 								}

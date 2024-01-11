@@ -3,7 +3,7 @@ import TeamMember from './TeamMember';
 const Team = () => {
 	return (
 		<div
-			className=' bg-primary text-white pt-8 pb-12 md:pt-16 md:pb-24'
+			className=' bg-primary text-white pt-8 pb-12 md:pt-10 md:pb-10 3xl:pt-16 3xl:pb-24'
 			id='team'>
 			<div className='flex flex-col gap-10 md:gap-20 3xl:max-w-[1920px] 3xl:m-auto'>
 				<h2 className='text-2xl font-[600] text-center md:text-3xl md:text-left md:pl-20 3xl:pl-0'>
