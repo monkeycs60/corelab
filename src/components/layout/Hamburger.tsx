@@ -58,14 +58,14 @@ const Hamburger = ({
                         Statistiques
                     </Link>
                     <Link
-                        href={'/statistics'}
+                        href={'/team'}
                         className='linkHoverEffect'
                         onClick={toggleHamburgerMenu}
                     >
                         Responsables
                     </Link>
                     <Link
-                        href={'/statistics'}
+                        href={'/contacts'}
                         className='linkHoverEffect underline underline-offset-1'
                         onClick={toggleHamburgerMenu}
                     >
