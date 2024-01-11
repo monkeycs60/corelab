@@ -2,13 +2,24 @@ import Header from '@/components/layout/Header';
 import './globals.css';
 import type { Metadata } from 'next';
 import Footer from '@/components/layout/Footer';
-
-
-
+import { getCldOgImageUrl } from 'next-cloudinary';
 
 export const metadata: Metadata = {
-	title: 'Corelab',
-	description: 'Corelab website',
+	title: 'Miracl.ai',
+	description: 'Miracl.ai est une base de données multimodales labellisées par des experts.',
+	openGraph: {
+		title: 'Miracl.ai',
+		description: 'Miracl.ai est une base de données multimodales labellisées par des experts.',
+		images: [
+			{
+				url: getCldOgImageUrl({
+					src: 'opengraphmiracl_neojix',
+				}),
+				width: 1200,
+				height: 627,
+			},
+		],
+	}
 };
 
 export const revalidate = 20;

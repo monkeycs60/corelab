@@ -26,7 +26,7 @@ const Header = () => {
 			<header className={`z-[999] fixed top-0 w-full h-[5.5rem] bg-[#070F1E] text-white  py-2 px-5 transition-all duration-200 md:px-16 md:h-[6rem] 3xl:h-[7rem]    ${y && y > 50 ? 'md:bg-[#070F1E]' : 'md:bg-transparent'
 				} `}>
 				<div className='m-auto flex justify-between items-center h-full 3xl:max-w-[1920px] 3xl:h-full'>
-					<Link href="#introduction" className='flex items-center gap-4 md:gap-8'>
+					<Link href="/" className='flex items-center gap-4 md:gap-8'>
 						<Image
 							src='/miracl-logo.svg'
 							className='w-14 md:w-[70px]'

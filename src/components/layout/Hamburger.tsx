@@ -51,21 +51,21 @@ const Hamburger = ({
                         Services
                     </Link>
                     <Link
-                        href={'/statistics'}
+                        href={'#statistics'}
                         className='linkHoverEffect'
                         onClick={toggleHamburgerMenu}
                     >
                         Statistiques
                     </Link>
                     <Link
-                        href={'/team'}
+                        href={'#team'}
                         className='linkHoverEffect'
                         onClick={toggleHamburgerMenu}
                     >
                         Responsables
                     </Link>
                     <Link
-                        href={'/contacts'}
+                        href={'#contacts'}
                         className='linkHoverEffect underline underline-offset-1'
                         onClick={toggleHamburgerMenu}
                     >
