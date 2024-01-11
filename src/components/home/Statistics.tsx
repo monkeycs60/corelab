@@ -41,7 +41,7 @@ const Statistics = () => {
 						<div className='flex-1 text-[#00A8B3] text-center md:flex-auto md:w-full'>
 							<span className='text-3xl font-bold md:text-5xl 3xl:text-6xl md:h-20 md:w-[400px] md:flex  md:justify-center'>
 								{
-									hasAnimated ? <CountUp end={12} duration={4} separator=' ' /> : 12
+									hasAnimated ? <CountUp end={12} duration={4} delay={0.7} separator=' ' /> : 12
 								}
 							</span>
 							<p className="3xl:text-lg">études</p>
@@ -59,7 +59,7 @@ const Statistics = () => {
 						<div className='w-3/4  text-[#FF6B00] text-center md:w-full'>
 							<span className='text-3xl font-bold md:text-5xl 3xl:text-6xl md:h-20 md:w-[400px] md:flex md:justify-center'>
 								{
-									hasAnimated ? <CountUp end={28256} duration={4} separator=' ' /> : 28256
+									hasAnimated ? <CountUp end={28256} duration={4} delay={0.7} separator=' ' /> : 28256
 								}
 							</span>
 							<p className="3xl:text-lg">patients</p>
@@ -77,7 +77,7 @@ const Statistics = () => {
 						<div className='w-3/4 text-secondary text-center md:w-full md:flex md:flex-col md:gap-2'>
 							<span className='text-3xl font-bold md:text-5xl 3xl:text-6xl md:h-20 md:w-[400px] md:flex md:justify-center'>
 								{
-									hasAnimated ? <CountUp end={8564026} className='md:h-20 md:w-full' duration={4} separator=' ' /> : 8564026
+									hasAnimated ? <CountUp end={8564026} className='md:h-20 md:w-full' duration={4} delay={0.7} separator=' ' /> : 8564026
 								}
 							</span>
 							<p className="3xl:text-lg">images analysées</p>
