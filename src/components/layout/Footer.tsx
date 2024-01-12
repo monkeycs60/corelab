@@ -44,7 +44,7 @@ const Footer = () => {
 							<span className='text-secondary text-xl md:text-2xl'>.ai</span>
 						</h1>
 					</div>
-					<div className='flex w-[60%] gap-10 items-start 3xl:gap-32'>
+					<div className='flex w-[65%] gap-10 items-start 3xl:gap-32'>
 						<Image src='/map.png' width={485} height={404} className='w-[350px]' alt='Miracl location' />
 						<div className='text-white px-6 flex flex-col gap-10 justify-center items-center'>
 							<div className='flex gap-10 items-center'>
