@@ -9,7 +9,7 @@ const Team = () => {
 				<h2 className='text-2xl font-[600] text-center md:text-3xl md:text-left md:pl-20 3xl:pl-0'>
 					Les responsables de la plateforme
 				</h2>
-				<div className='flex flex-wrap items-center justify-center md:justify-around gap-4 md:w-[90%] md:m-auto md:flex-nowrap'>
+				<div className='flex flex-wrap items-center justify-center md:justify-around gap-4 md:w-[90%] md:m-auto lg:flex-nowrap'>
 					<TeamMember TeamNumber={1} descriptionContent='Dr Théo Pezel' />
 					<TeamMember TeamNumber={2} descriptionContent='Pr Patrick Henry' />
 					<TeamMember

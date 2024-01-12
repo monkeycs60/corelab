@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Footer = () => {
 	return (
 		<>
-			<div className='bg-secondary text-white p-6 flex flex-col gap-5 justify-center items-center md:hidden' id='contacts'>
+			<div className='bg-secondary text-white p-6 flex flex-col gap-5 justify-center items-center lg:hidden' id='contacts'>
 				<h2 className='text-center font-[600] text-2xl'>Contacts</h2>
 				<div className='flex gap-5'>
 					<Link
@@ -29,7 +29,7 @@ const Footer = () => {
 					<p>France</p>
 				</div>
 			</div>
-			<div className='hidden md:block pt-32 pb-12 px-20 bg-primary'>
+			<div className='hidden lg:block pt-32 pb-12 px-20 bg-primary'>
 				<div className='flex justify-between items-start max-w-[1920px] m-auto'>
 					<div className='flex items-center gap-4 md:gap-8'>
 						<Image

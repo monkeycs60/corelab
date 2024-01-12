@@ -54,7 +54,7 @@ const Introduction = () => {
 	return (
 		<>
 			<div
-				className='pt-[5.5rem] pb-[1.5rem] text-white bg-cardio-computer-mobile md:hidden'
+				className='pt-[5.5rem] pb-[1.5rem] text-white bg-cardio-computer-mobile lg:hidden'
 				id='introduction'>
 				<div className='pt-6 px-8 text-center flex flex-col gap-6'>
 					<h2 className='text-2xl font-[600]'>Présentation</h2>
@@ -64,7 +64,7 @@ const Introduction = () => {
 				</div>
 			</div>
 			<div
-				className='pt-[5rem] h-screen text-white bg-cardio-computer-desktop hidden md:flex'
+				className='pt-[5rem] h-screen text-white bg-cardio-computer-desktop hidden lg:flex'
 				id='introduction'>
 				<div className="w-full flex justify-end 3xl:max-w-[1920px] 3xl:m-auto 3xl:translate-x-[8vw] ">
 					<div className='text-center gap-12 mt-20 flex flex-col items-center md:mt-16 md:w-[40%] 3xl:w-[38%] 3xl:mt-0 3xl:gap-24 3xl:px-0'>

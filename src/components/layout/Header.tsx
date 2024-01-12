@@ -29,7 +29,7 @@ const Header = () => {
 					<Link href="/" className='flex items-center gap-4 md:gap-8'>
 						<Image
 							src='/miracl-logo.png'
-							className='w-14 md:w-[70px]'
+							className='w-14 lg:w-[70px]'
 							width={453}
 							height={403}
 							alt='Corelab logo'
@@ -39,7 +39,7 @@ const Header = () => {
 							<span className='text-secondary text-xl md:text-2xl'>.ai</span>
 						</h1>
 					</Link>
-					<nav className='md:w-[500px]'>
+					<nav className='lg:w-[500px]'>
 						<div className='w-8 h-8 md:hidden'>
 							{
 								isHamburgerOpen ? <X onClick={toggleHamburgerMenu} className='h-full w-full' /> : <Menu onClick={toggleHamburgerMenu} className='h-full w-full' />
@@ -64,7 +64,7 @@ const Header = () => {
 						</ul>
 					</nav>
 					<Link href='#contacts' className='hidden md:block'>
-						<button className='bg-secondary text-white font-semibold px-8 py-3 rounded-md hover:bg-white hover:text-secondary transition-all duration-300 3xl:px-10 3xl:py-4'>
+						<button className='bg-secondary text-white font-semibold px-4 py-2 lg:px-8 lg:py-3 rounded-md hover:bg-white hover:text-secondary transition-all duration-300 3xl:px-10 3xl:py-4'>
 							Contact
 						</button>
 					</Link>

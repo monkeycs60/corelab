@@ -29,7 +29,7 @@ const Statistics = () => {
 					<span className='font-semibold text-secondary'>.ai</span> est
 					constituée aujourd’hui de :
 				</p>
-				<div className='flex flex-col gap-6 md:flex-row md:justify-between md:w-[80%] 3xl:w-[60%] md:mt-14 md:m-auto md:gap-0'>
+				<div className='flex flex-col gap-6 md:flex-row md:justify-between md:w-[80%] 3xl:w-[60%] md:mt-14 md:m-auto md:gap-4 xl:gap-0'>
 					<div className='flex items-center md:flex-col md:items-center md:justify-center md:gap-4'>
 						<Image
 							src='/stat1.svg'
@@ -39,7 +39,7 @@ const Statistics = () => {
 							alt='studies'
 						/>
 						<div className='flex-1 text-[#00A8B3] text-center md:flex-auto md:w-full'>
-							<span className='text-3xl font-bold md:text-5xl 3xl:text-6xl md:h-14 3xl:h-20 md:w-[400px] md:flex  md:justify-center'>
+							<span className='text-3xl font-bold lg:text-5xl 3xl:text-6xl md:h-14 3xl:h-20 xl:w-[400px] md:flex  md:justify-center'>
 								{
 									hasAnimated ? <CountUp end={12} duration={4} delay={0.7} separator=' ' /> : 12
 								}
@@ -57,7 +57,7 @@ const Statistics = () => {
 							alt='studies'
 						/>
 						<div className='w-3/4  text-[#FF6B00] text-center md:w-full'>
-							<span className='text-3xl font-bold md:text-5xl 3xl:text-6xl md:h-14 3xl:h-20 md:w-[400px] md:flex md:justify-center'>
+							<span className='text-3xl font-bold lg:text-5xl 3xl:text-6xl md:h-14 3xl:h-20 xl:w-[400px] md:flex md:justify-center'>
 								{
 									hasAnimated ? <CountUp end={28256} duration={4} delay={0.7} separator=' ' /> : 28256
 								}
@@ -75,7 +75,7 @@ const Statistics = () => {
 							alt='studies'
 						/>
 						<div className='w-3/4 text-secondary text-center md:w-full md:flex md:flex-col md:gap-2'>
-							<span className='text-3xl font-bold md:text-5xl 3xl:text-6xl md:h-14 3xl:h-20 md:w-[400px] md:flex md:justify-center'>
+							<span className='text-3xl font-bold lg:text-5xl 3xl:text-6xl md:h-14 3xl:h-20 xl:w-[400px] md:flex md:justify-center'>
 								{
 									hasAnimated ? <CountUp end={8564026} className='md:h-20 md:w-full' duration={4} delay={0.7} separator=' ' /> : 8564026
 								}

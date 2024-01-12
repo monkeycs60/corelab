@@ -13,7 +13,7 @@ const TeamMember = ({ TeamNumber, descriptionContent }: TeamMemberProps) => {
 				src={`/team${TeamNumber}.png`}
 				alt={`team member number ${TeamNumber}`}
 				color='#F33349'
-				className='h-28 w-28 rounded-full border-[2px] md:h-32 md:w-32 3xl:h-40 3xl:w-40 '
+				className='h-28 w-28 rounded-full border-[2px] lg:h-32 lg:w-32 3xl:h-40 3xl:w-40 '
 				width={212}
 				height={212}
 			/>
