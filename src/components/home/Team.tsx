@@ -11,17 +11,17 @@ const Team = () => {
 				</h2>
 				<div className='flex flex-wrap items-center justify-center md:justify-around gap-4 md:w-[90%] md:m-auto md:flex-nowrap'>
 					<TeamMember TeamNumber={1} descriptionContent='Dr Théo Pezel' />
-					<TeamMember TeamNumber={1} descriptionContent='Pr Patrick Henry' />
+					<TeamMember TeamNumber={2} descriptionContent='Pr Patrick Henry' />
 					<TeamMember
-						TeamNumber={1}
+						TeamNumber={3}
 						descriptionContent='Dr Jean-Guillaume Dillinger'
 					/>
 					<TeamMember
-						TeamNumber={1}
+						TeamNumber={4}
 						descriptionContent='Dr Trecy Gonçalves'
 					/>
 					<TeamMember
-						TeamNumber={1}
+						TeamNumber={5}
 						descriptionContent='Dr Paul-Jun Martial'
 					/>
 				</div>
