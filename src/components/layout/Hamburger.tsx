@@ -51,7 +51,7 @@ const Hamburger = ({
                         Services
                     </Link>
                     <Link
-                        href={'#statistics'}
+                        href={'#glitch'}
                         className='linkHoverEffect'
                         onClick={toggleHamburgerMenu}
                     >
