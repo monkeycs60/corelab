@@ -9,13 +9,13 @@ const Footer = () => {
 				<h2 className='text-center font-[600] text-2xl'>Contacts</h2>
 				<div className='flex gap-5'>
 					<Link
-						href='mailto:miracl-ai@gmail.com'
+						href='mailto:contact@miracl-ai.com'
 						className='h-10 w-10 rounded-full bg-white flex justify-center items-center'
 						target='_blank'>
 						<Mail className='  text-secondary ' />
 					</Link>
 					<Link
-						href='linkedin.com/miracl-ai'
+						href='https://www.linkedin.com/company/miracl-ai/about/'
 						className='h-10 w-10 rounded-full bg-white flex justify-center items-center'
 						target='_blank'>
 						<Linkedin className='  text-secondary ' />
@@ -51,13 +51,13 @@ const Footer = () => {
 								<h2 className='text-center font-[600] text-2xl 3xl:text-3xl'>Contacts</h2>
 								<div className='flex gap-5'>
 									<Link
-										href='mailto:miracl-ai@gmail.com'
+										href='mailto:contact@miracl-ai.com'
 										className='h-12 w-12 rounded-full bg-white flex justify-center items-center'
 										target='_blank'>
 										<Mail className='  text-primary ' />
 									</Link>
 									<Link
-										href='linkedin.com/miracl-ai'
+										href='https://www.linkedin.com/company/miracl-ai/about/'
 										className='h-12 w-12 rounded-full bg-white flex justify-center items-center'
 										target='_blank'>
 										<Linkedin className='  text-primary ' />
