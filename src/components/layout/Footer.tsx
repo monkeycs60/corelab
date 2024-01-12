@@ -29,7 +29,7 @@ const Footer = () => {
 					<p>France</p>
 				</div>
 			</div>
-			<div className='hidden md:block pt-32 pb-24 px-20 bg-primary'>
+			<div className='hidden md:block pt-32 pb-12 px-20 bg-primary'>
 				<div className='flex justify-between items-start max-w-[1920px] m-auto'>
 					<div className='flex items-center gap-4 md:gap-8'>
 						<Image
