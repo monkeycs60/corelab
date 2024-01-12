@@ -26,6 +26,7 @@ const Footer = () => {
 					<p>Hôpital Lariboisière - AP-HP</p>
 					<p>2 rue Ambroise Paré </p>
 					<p>75010 Paris</p>
+					<p>France</p>
 				</div>
 			</div>
 			<div className='hidden md:block pt-32 pb-24 px-20 bg-primary'>
@@ -66,8 +67,9 @@ const Footer = () => {
 							<div className='flex flex-col  text-lg text-left w-full'>
 								<p className='underline underline-offset-2'>MIRACL.ai</p>
 								<p>Hôpital Lariboisière - AP-HP</p>
-								<p>10 rue Ambroise Paré </p>
-								<p>75010 Paris</p>
+								<p>2 rue Ambroise Paré </p>
+								<p>75010 Paris </p>
+								<p>France</p>
 							</div>
 						</div>
 					</div>
