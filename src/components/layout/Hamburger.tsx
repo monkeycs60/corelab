@@ -14,7 +14,7 @@ const Hamburger = ({
 }: HamburgerProps) => {
 
     const variants = {
-        open: { opacity: 1, y: 0, height: "75%" },
+        open: { opacity: 1, y: 0, height: "100%" },
         closed: { opacity: 0, y: '-100%', height: "0%" },
         exit: { opacity: 0, y: '-100%', height: "0%" },
     };
@@ -25,7 +25,7 @@ const Hamburger = ({
             exit='exit'
             variants={variants}
             transition={{ duration: 0.5 }}
-            className='fixed left-0 top-0 z-[100] h-screen w-screen overflow-hidden bg-primary text-white font-inter'
+            className='fixed left-0 top-0 z-[100] h-70vh w-screen overflow-hidden bg-primary text-white font-inter'
         >
             <div className=' flex h-full flex-col  justify-start p-20 text-center text-lg mt-6 sm:text-xl '>
                 <div className='flex flex-col gap-6'>

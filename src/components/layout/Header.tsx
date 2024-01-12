@@ -28,10 +28,10 @@ const Header = () => {
 				<div className='m-auto flex justify-between items-center h-full 3xl:max-w-[1920px] 3xl:h-full'>
 					<Link href="/" className='flex items-center gap-4 md:gap-8'>
 						<Image
-							src='/miracl-logo.svg'
+							src='/miracl-logo.png'
 							className='w-14 md:w-[70px]'
-							width={452}
-							height={402}
+							width={453}
+							height={403}
 							alt='Corelab logo'
 						/>
 						<h1>
