@@ -14,7 +14,7 @@ const Hamburger = ({
 }: HamburgerProps) => {
 
     const variants = {
-        open: { opacity: 1, y: 0, height: "70%" },
+        open: { opacity: 1, y: 0, height: "75%" },
         closed: { opacity: 0, y: '-100%', height: "0%" },
         exit: { opacity: 0, y: '-100%', height: "0%" },
     };
