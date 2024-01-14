@@ -6,6 +6,9 @@ import { getCldOgImageUrl } from 'next-cloudinary';
 import GoogleAnalytics from '@/components/layout/GoogleAnalytics';
 import CookieBanner from '@/components/layout/CookieBanner';
 import CookieConsentBanner from '@/components/layout/CookieConsentBanner';
+import TagManager from 'react-gtm-module'
+import { GoogleTagManager } from '@next/third-parties/google'
+
 
 export const metadata: Metadata = {
 	title: 'Miracl.ai',
@@ -32,27 +35,16 @@ export default function RootLayout({
 }: {
 	children: React.ReactNode;
 }) {
-	if (!process.env.GA_MEASUREMENT_ID) {
-		console.error('GA_MEASUREMENT_ID is not defined');
-		return (
-			<html lang='fr'>
-				<body className='!scroll-smooth relative font-general overflow-x-hidden'>
-					<Header />
-					{children}
-					<Footer />
-				</body>
-			</html>
-		)
-	} else
-		return (
-			<html lang='fr'>
-				<GoogleAnalytics GA_MEASUREMENT_ID={process.env.GA_MEASUREMENT_ID} />
-				<body className='relative font-general overflow-x-hidden'>
-					<Header />
-					{children}
-					<Footer />
-					<CookieConsentBanner />
-				</body>
-			</html>
-		);
+
+	return (
+		<html lang='fr'>
+			<body className='relative font-general overflow-x-hidden'>
+				<Header />
+				{children}
+				<Footer />
+				<CookieConsentBanner />
+			</body>
+			<GoogleTagManager gtmId="GTM-TMH53L8X" />
+		</html>
+	);
 }
