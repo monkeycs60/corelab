@@ -19,14 +19,14 @@
 
 
 .bg-cardio-computer-mobile {
-	background-image: url('/bg-computer-mobile.png');
+	background-image: url('/bg-computer-mobile.webp');
 	background-size: 100%;
 	background-position: center;
 	width: 100vw;
 }
 
 .bg-cardio-computer-desktop {
-	background-image: url('/bg-computer-desktop.png');
+	background-image: url('/bg-computer-desktop.webp');
 	background-size: 100%;
 	width: 100vw;
 }
@@ -40,7 +40,7 @@
 }
 
 .bg-cardio-irm-desktop {
-	background-image: url('/bg-cardio-irm-desktop.png');
+	background-image: url('/bg-cardio-irm-desktop.webp');
 	background-size: cover;
 	background-position: center;
 	width: 100vw;
