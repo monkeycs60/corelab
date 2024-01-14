@@ -2,20 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+	scroll-behavior: smooth;
+}
 @font-face {
 	font-family: 'GeneralSansVariable';
 	src: url('/fonts/GeneralSansVariable.ttf');
 }
 
 #introduction, #objectives, #services, #statistics, #team, #contact {
-  scroll-margin-top: 100px;
+  scroll-margin-top: 80px;
 }
-
-/* .bg-cardio-computer-mobile {
-	background-image: url('/bg-cardio-computer-mobile.png');
-	background-size: fill;
-	background-position: right;
-} */
 
 
 .bg-cardio-computer-mobile {

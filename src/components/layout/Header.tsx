@@ -33,6 +33,7 @@ const Header = () => {
 							width={453}
 							height={403}
 							alt='Corelab logo'
+							priority
 						/>
 						<h1 className={`${y && y > 50 ? 'md:text-white' : 'xl:text-primary'}`}>
 							<span className='font-semibold text-2xl md:text-3xl'>MIRACL</span>
