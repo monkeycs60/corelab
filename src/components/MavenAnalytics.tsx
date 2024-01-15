@@ -11,7 +11,7 @@ function MavenAnalytics() {
     useEffect(() => {
         const url = `${pathname}?${searchParams}`
         const usermaven: UsermavenClient = usermavenClient({
-            key: "UMHixXCh1k",
+            key: "UMEtQF5Z4x",
             tracking_host: "https://events.usermaven.com"
         })
 
