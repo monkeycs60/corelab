@@ -43,6 +43,8 @@ export default function RootLayout({
 				<Footer />
 				{/* <CookieConsentBanner /> */}
 			</body>
+
+			{/* Handling analytics */}
 			{/* <GoogleTagManager gtmId="GTM-TMH53L8X"  /> */}
 			{/* <GoogleTagManager gtmId="G-V94LGPP93X" /> */}
 			<Analytics />
