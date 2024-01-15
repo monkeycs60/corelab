@@ -4,8 +4,8 @@ import type { Metadata } from 'next';
 import Footer from '@/components/layout/Footer';
 import { getCldOgImageUrl } from 'next-cloudinary';
 import { Analytics } from '@vercel/analytics/react';
-import { UsermavenAnalytics } from '@/components/usermavenAnalytics';
 import { Suspense } from 'react';
+import { UsermavenAnalytics } from '@/components/usermavenAnalytics';
 import CookieConsentBanner from '@/components/layout/CookieConsentBanner';
 import { GoogleTagManager } from '@next/third-parties/google'
 
