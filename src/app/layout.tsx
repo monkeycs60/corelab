@@ -6,8 +6,6 @@ import { getCldOgImageUrl } from 'next-cloudinary';
 import { Analytics } from '@vercel/analytics/react';
 import { Suspense } from 'react';
 import MavenAnalytics from '@/components/MavenAnalytics';
-import CookieConsentBanner from '@/components/layout/CookieConsentBanner';
-import { GoogleTagManager } from '@next/third-parties/google'
 
 export const metadata: Metadata = {
 	title: 'Miracl.ai',
@@ -41,12 +39,8 @@ export default function RootLayout({
 				<Header />
 				{children}
 				<Footer />
-				{/* <CookieConsentBanner /> */}
 			</body>
 
-			{/* Handling analytics */}
-			{/* <GoogleTagManager gtmId="GTM-TMH53L8X"  /> */}
-			{/* <GoogleTagManager gtmId="G-V94LGPP93X" /> */}
 			<Analytics />
 			<Suspense fallback={null}>
 				<MavenAnalytics />
