@@ -3,10 +3,8 @@ import './globals.css';
 import type { Metadata } from 'next';
 import Footer from '@/components/layout/Footer';
 import { getCldOgImageUrl } from 'next-cloudinary';
-import GoogleAnalytics from '@/components/layout/GoogleAnalytics';
-import CookieBanner from '@/components/layout/CookieBanner';
+import { Analytics } from '@vercel/analytics/react';
 import CookieConsentBanner from '@/components/layout/CookieConsentBanner';
-import TagManager from 'react-gtm-module'
 import { GoogleTagManager } from '@next/third-parties/google'
 
 export const metadata: Metadata = {
@@ -41,10 +39,11 @@ export default function RootLayout({
 				<Header />
 				{children}
 				<Footer />
-				<CookieConsentBanner />
+				{/* <CookieConsentBanner /> */}
 			</body>
-			<GoogleTagManager gtmId="GTM-TMH53L8X" />
-			<GoogleAnalytics GA_MEASUREMENT_ID='G-V94LGPP93X' />
+			{/* <GoogleTagManager gtmId="GTM-TMH53L8X"  /> */}
+			{/* <GoogleTagManager gtmId="G-V94LGPP93X" /> */}
+			<Analytics />
 		</html>
 	);
 }
