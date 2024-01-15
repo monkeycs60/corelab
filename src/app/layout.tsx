@@ -9,7 +9,6 @@ import CookieConsentBanner from '@/components/layout/CookieConsentBanner';
 import TagManager from 'react-gtm-module'
 import { GoogleTagManager } from '@next/third-parties/google'
 
-
 export const metadata: Metadata = {
 	title: 'Miracl.ai',
 	description: 'Miracl.ai est une base de données multimodales labellisées par des experts.',
@@ -45,6 +44,7 @@ export default function RootLayout({
 				<CookieConsentBanner />
 			</body>
 			<GoogleTagManager gtmId="GTM-TMH53L8X" />
+			<GoogleAnalytics GA_MEASUREMENT_ID='G-V94LGPP93X' />
 		</html>
 	);
 }
