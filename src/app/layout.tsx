@@ -5,7 +5,7 @@ import Footer from '@/components/layout/Footer';
 import { getCldOgImageUrl } from 'next-cloudinary';
 import { Analytics } from '@vercel/analytics/react';
 import { Suspense } from 'react';
-import { UsermavenAnalytics } from '@/components/usermavenAnalytics';
+import { UsermavenAnalytics } from '@/components/UsermavenAnalytics';
 import CookieConsentBanner from '@/components/layout/CookieConsentBanner';
 import { GoogleTagManager } from '@next/third-parties/google'
 
