@@ -4,7 +4,7 @@ import { useEffect } from "react"
 import { usePathname, useSearchParams } from "next/navigation"
 import { UsermavenClient, usermavenClient } from "@usermaven/sdk-js"
 
-export function UsermavenAnalytics() {
+function MavenAnalytics() {
     const pathname = usePathname()
     const searchParams = useSearchParams()
 
@@ -22,3 +22,5 @@ export function UsermavenAnalytics() {
 
     return null
 }
+
+export default MavenAnalytics

@@ -5,7 +5,7 @@ import Footer from '@/components/layout/Footer';
 import { getCldOgImageUrl } from 'next-cloudinary';
 import { Analytics } from '@vercel/analytics/react';
 import { Suspense } from 'react';
-import { UsermavenAnalytics } from '@/components/UsermavenAnalytics';
+import MavenAnalytics from '@/components/MavenAnalytics';
 import CookieConsentBanner from '@/components/layout/CookieConsentBanner';
 import { GoogleTagManager } from '@next/third-parties/google'
 
@@ -49,7 +49,7 @@ export default function RootLayout({
 			{/* <GoogleTagManager gtmId="G-V94LGPP93X" /> */}
 			<Analytics />
 			<Suspense fallback={null}>
-				<UsermavenAnalytics />
+				<MavenAnalytics />
 			</Suspense>
 		</html>
 	);
