@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 				height: 627,
 			},
 		],
-	}
+	},
 };
 
 export const revalidate = 20;
